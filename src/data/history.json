@@ -1,0 +1,26 @@
+[
+  {
+    "role": "Python for DataScience Intern",
+    "organisation": "Inspire Softtech Solution",
+    "startDate": "DEC, 2023",
+    "endDate": "JAN, 2023",
+    "experiences": [
+      "Worked on PowerBI",
+      "Hands on experience in Visualization data"
+    ],
+    "imageSrc": "history/logo.png",
+    "certificateLink": "https://drive.google.com/file/d/1dZPpiwNGmjttH1qwrzoX1vNUKnC3GTGE/view"
+  },
+  {
+    "role": "UI/UX Designer",
+    "organisation": "Make Labs",
+    "startDate": "JUN, 2024",
+    "endDate": "JUL, 2024",
+    "experiences": [
+      "Worked on Adobe illustrator & Adobe XD",
+      "Developed wireframes for the webpage application"
+    ],
+    "imageSrc": "history/ml.jpeg",
+    "certificateLink": "https://drive.google.com/file/d/125V2wP1vLolTWRqJBnVLmfj_E_t0q_3R/view"
+  }
+]

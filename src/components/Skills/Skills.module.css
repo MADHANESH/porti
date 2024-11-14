@@ -1,0 +1,50 @@
+.container {
+    padding: 20px;
+    text-align: center;
+    color: antiquewhite;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: antiquewhite;
+  }
+  
+  .skillsContent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates a grid with 3 columns */
+    gap: 20px; /* Space between each skill */
+    width: 100%;
+    max-width: 900px; /* Optional: Controls the maximum width of the grid */
+    margin: 0 auto; /* Centers the grid horizontally */
+  }
+  
+  .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .skillImageContainer {
+    background-color: var(--color-secondary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+  }
+  
+  .skillImageContainer img {
+    width: 75px;
+  }
+  
+  .skill p {
+    font-size: 1.25rem;
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    color: antiquewhite;
+  }
+  

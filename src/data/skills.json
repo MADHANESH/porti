@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "C ,C++",
+    "imageSrc": "skills/c.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/js.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Adobe Illustrator",
+    "imageSrc": "skills/illustrator_5968472.png"
+  },
+  {
+    "title": "Adobe XD",
+    "imageSrc": "skills/xd_5968559.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "PowerBI",
+    "imageSrc": "skills/pbi.png"
+  }
+  
+ 
+]
