@@ -1,11 +1,12 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/puc.gif",
-    "description": "Still working on  project.",
-    "skills": ["", "", ""],
-    "demo": "",
-    "source": ""
+    "title": "React based Resume review application ",
+    "imageSrc": "projects/rrb.png
+    ",
+    "description": "This project is to build the resumes with templates available and you can also check scores of your resume.",
+    "skills": ["React JS", "Python", ""],
+    "demo": "https://smart-resume-analyzer-web.vercel.app",
+    "source": "https://github.com/MADHANESH/react-resume-review-web-application.git"
   },
   {
     "title": "Project B",
