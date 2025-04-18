@@ -6,3 +6,25 @@
   height: 100%;
   overflow: hidden;
 }
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .App {
+    overflow-y: auto; /* Allow vertical scrolling for smaller screens */
+    padding: 16px; /* Add padding for better spacing */
+  }
+
+  h2 {
+    font-size: 20px; /* Adjust heading font size */
+    text-align: center; /* Center-align headings */
+  }
+
+  p {
+    font-size: 16px; /* Adjust paragraph font size */
+    line-height: 1.5; /* Improve readability */
+  }
+
+  .container {
+    padding: 12px; /* Add padding to containers */
+  }
+}

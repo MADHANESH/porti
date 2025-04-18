@@ -1,18 +1,18 @@
 [
   {
     "title": "React based Resume review application ",
-    "imageSrc": "projects/logo.png ",
+    "imageSrc": "projects/logo.png",
     "skills": ["React JS", "Python", ""],
     "demo": "https://smart-resume-analyzer-web.vercel.app",
     "source": "https://github.com/MADHANESH/react-resume-review-web-application.git"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/puc.gif",
-    "description": "Still working on  project.",
-    "skills": ["", "", "", ""],
-    "demo": "",
-    "source": ""
+    "title": "Pharmaceutical Supply Chain Management",
+    "imageSrc": "projects/psm.png",
+    "description": "",
+    "skills": ["React JS", "Node JS", "Express JS", "MongoDB", "web3"],
+    "demo": "https://pharmaceutical-supply.vercel.app/",
+    "source": "https://github.com/MADHANESH/Pharmaceutical-Supply-chain-management-using-Ethereum-Blockchain-main.git"
   },
   {
     "title": "Project C",

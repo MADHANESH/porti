@@ -44,6 +44,9 @@ export const Navbar = () => {
           <li>
             <a href="#education">Education</a>
           </li>
+          <li>
+            <a href="#certifications">certifications</a>
+          </li>
         </ul>
       </div>
     </nav>

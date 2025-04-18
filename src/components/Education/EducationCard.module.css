@@ -6,8 +6,8 @@
   border-radius: 10px;
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
-  padding: 18px 24px;
-  max-width: 345px;
+  padding: 50px 50px;
+  max-width: 900px;
   margin-bottom: 20px; /* Add margin to create space between boxes */
 }
 
@@ -16,8 +16,8 @@
 }
 
 .title {
-  font-size: 25px;
-  font-weight: 700;
+  font-size: 100px;
+  font-weight: 1000;
 }
 
 .description {
@@ -59,4 +59,23 @@
   border-radius: 100px;
   background: var(--color-primary);
   padding: 1px 22px;
+}
+.degree {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+.institution {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+.year {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 6px;
+  margin-bottom: 10px;
 }

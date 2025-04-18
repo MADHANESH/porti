@@ -7,7 +7,14 @@
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
-  max-width: 345px;
+  width: 300px; /* Fixed width for each card */
+  text-align: center;
+  color: white;
+  transition: transform 0.2s ease-in-out;
+}
+
+.container:hover {
+  transform: scale(1.05);
 }
 
 .image {
@@ -58,4 +65,11 @@
   border-radius: 100px;
   background: var(--color-primary);
   padding: 1px 22px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Space between cards */
+  justify-content: center; /* Center the cards horizontally */
 }

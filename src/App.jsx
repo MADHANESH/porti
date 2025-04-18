@@ -5,9 +5,9 @@ import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
-import {Skills} from "./components/Skills/Skills"
+import { Skills } from "./components/Skills/Skills";
 import { Education } from "./components/Education/Education";
- // No {} needed for default exports
+import { Certifications } from "./components/certifications/certifications"; // Correct import
 
 function App() {
   return (
@@ -18,9 +18,9 @@ function App() {
       <About />
       <Experience />
       <Education />
+      <Certifications /> {/* Correct usage */}
       <Projects />
       <Contact />
-
     </div>
   );
 }

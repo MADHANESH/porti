@@ -20,14 +20,14 @@
 }
 
 .title {
-  font-size: 72px;
+  font-size: 69px;
   font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
   background: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
+    rgba(255, 255, 255, 1) 95%, /* Increased solid portion */
+    rgba(255, 255, 255, 0) 100% /* Slight adjustment */
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;

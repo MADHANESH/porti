@@ -1,0 +1,48 @@
+@import "../../vars.css";
+
+.container {
+  padding: 20px;
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping to the next row if needed */
+  gap: 16px; /* Add space between cards */
+  justify-content: center; /* Center the cards horizontally */
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center; /* Center-align the title */
+  color: white; /* Set title color to white */
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  margin-bottom: 15px;
+}
+
+.cards {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}

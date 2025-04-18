@@ -16,7 +16,9 @@ export const Experience = () => {
                 alt={`${historyItem.organisation} Logo`}
               />
               <div className={styles.historyItemDetails}>
-                <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
+                <h3>{`${historyItem.role}, `}</h3>
+                <h4>{`${historyItem.organisation},`}</h4>
+
                 <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
                 <ul>
                   {historyItem.experiences.map((experience, index) => (
@@ -25,16 +27,15 @@ export const Experience = () => {
                 </ul>
                 {/* Conditionally render the certificate link */}
                 {historyItem.certificateLink && (
-                  <div className={styles.certificateLink}>
-                    <a
-                      href={historyItem.certificateLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Click here to view certificate
-                    </a>
-                  </div>
-                )}
+  <div className={styles.certificateLink}>
+    <button
+      onClick={() => window.open(historyItem.certificateLink, "_blank", "noopener,noreferrer")}
+      className={styles.certificateButton}
+    >
+      Click here to view certificate
+    </button>
+  </div>
+)}
               </div>
             </li>
           ))}
